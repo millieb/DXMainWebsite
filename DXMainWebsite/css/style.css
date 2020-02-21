@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+:root{
+    --greyLight: #9B967F;
+    --greyDark: #4C4E47;
+    --blueLight: #39B2EE;
+    --blueFaded: #6AA3C5;
+    --blueFadedLighter: #A8C6D7;
+    --blue: #357FB0;
+    --white: #fff;
+    --black: #000;
+}
+
+h1{
+    margin: 0px;
+    font-family: Poppins, Arial, Helvetica;
+    padding: 10px;
+}
+
+h2{
+    margin: 10px;
+    font-family: Poppins, Arial, Helvetica;
+    letter-spacing: .2em;
+}
+
+h3{
+    margin: 15px;
+    font-family: Roboto, Arial, Helvetica;
+    letter-spacing: .1em;
+}
+
+p{
+    line-height: 1.5em;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto, Arial, Helvetica;
+}
+
+
+/*Hero-Image*/
+#hero-image{
+    background: url('../img/1.jpg') no-repeat center center fixed;  
+    display: table;
+    height: 100vh;    
+    position:  relative;
+    width: 100%;
+    background-size: cover;
+}
+
+
+
+.landing-text {
+    display: table-cell;
+    text-align: left;
+    vertical-align: bottom;
+    margin: 0px;
+    color: white;
+    padding: 2%;
+}
+
+.landing-text h1{
+    font-size: 72px;
+    text-shadow: 0px 0px 4px #000;
+}
+
+.landing-text h3{
+    font-size: 24px;
+    text-shadow: 0px 0px 3px #000;
+}
+
+.hero-image-slogan{
+    text-align: left;
+}
+
+/*Hero-Image*/
+
+/*Navigation Bar*/
+navbar-nav {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+}
+.navbar .navbar-nav a{
+    color: #666; 
+}
+
+.navbar .navbar-nav a:hover, .navbar-nav .nav-item a:active{
+    color: #39B2EE;
+    text-decoration: none;
+}
+
+
+.navbar-brand{
+    float: left; 
+    height: 70px; 
+    width: 220px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+/*Navigation Bar*/
+
