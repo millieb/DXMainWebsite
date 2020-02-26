@@ -84,15 +84,15 @@ navbar-nav {
     width: 100%;
     text-align: right;
 }
-.navbar .navbar-nav a{
+.navbar .navbar-nav .nav-link{
     color: #666; 
+    font-size: 1.2rem;
 }
 
-.navbar .navbar-nav a:hover, .navbar-nav .nav-item a:active{
-    color: #39B2EE;
+.navbar .navbar-nav .nav-link:hover, .navbar-nav .nav-item .nav-link:active{
+    color: var(--blueLight);
     text-decoration: none;
 }
-
 
 .navbar-brand{
     float: left; 
@@ -103,3 +103,17 @@ navbar-nav {
 }
 /*Navigation Bar*/
 
+/*DataXport Logo*/
+.dxlogo-area .dxlogo-img {
+    padding-top: .5em;
+    padding-bottom: 1.5em;
+}
+/*DataXport Logo*/
+
+/*Home Images*/
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*Home Images*/
