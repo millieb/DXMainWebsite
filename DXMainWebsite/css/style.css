@@ -117,6 +117,14 @@ navbar-nav {
 }
 /*Home Images*/
 
+.cards-section{
+    background-color: #f0f2f4;
+}
+
+h2{
+    text-align: center;
+    padding: 40px 0px 20px 0px;
+}
 /*Cards*/
 .card-container .card .card-header{
     font-weight: bold;
