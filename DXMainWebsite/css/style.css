@@ -75,7 +75,6 @@ body{
 .hero-image-slogan{
     text-align: left;
 }
-
 /*Hero-Image*/
 
 /*Navigation Bar*/
@@ -117,3 +116,17 @@ navbar-nav {
     justify-content: center;
 }
 /*Home Images*/
+
+/*Cards*/
+.card-container .card .card-header{
+    font-weight: bold;
+}
+
+.card-container .card .card-body{
+    padding: 15px;
+}
+
+.card-container .card .card-body .card-text{
+    padding: 0px 0px 0px 20px;
+}
+/*Cards*/
