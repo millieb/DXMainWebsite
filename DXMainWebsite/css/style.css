@@ -147,6 +147,10 @@ h2{
     font-weight: bold;
     margin-right: .5em;
 }
+
+.modal-body{
+    text-align: justify;
+}
 /*Cards*/
 
 
