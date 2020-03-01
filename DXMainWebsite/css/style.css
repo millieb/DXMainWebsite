@@ -148,6 +148,18 @@ h2{
     margin-right: .5em;
 }
 
+.card-img-zoom{
+    overflow: hidden;
+}
+
+.card-img-zoom img{
+    transition: all 1.5s ease;
+}
+
+.card-img-zoom:hover img{
+    transform: scale(1.5);
+}
+
 .modal-body{
     text-align: justify;
 }
