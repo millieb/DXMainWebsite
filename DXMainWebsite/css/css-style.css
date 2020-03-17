@@ -39,6 +39,7 @@
 }
 /*CCC-Description*/
 
+
 /*CCC-BulletPoints*/
 .ccc-container{
     width: 1000px;
@@ -57,6 +58,10 @@
     width: 300px;
     height: 300px;
     transition: 0.5s;
+    
+    margin-right: 5em;
+    margin-left: 5em;
+    
 }
 
 .ccc-container .card .face.face-one{
@@ -66,7 +71,7 @@
     justify-content: center;
     align-items: center;
     z-index: 1;
-    transform: translateY(250px);
+    transform: translateY(300px);
 }
 .ccc-container .card:hover .face.face-one{
     background: #ff0057;
