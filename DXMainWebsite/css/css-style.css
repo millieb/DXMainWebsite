@@ -1,4 +1,35 @@
 /*Customer Contact Center Website*/
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto, Arial, Helvetica;
+}
+
+/*Navigation Bar*/
+navbar-nav {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+}
+.navbar .navbar-nav .nav-link{
+    color: #666; 
+    font-size: 1.2rem;
+}
+
+.navbar .navbar-nav .nav-link:hover, .navbar-nav .nav-item .nav-link:active{
+    color: var(--blueLight);
+    text-decoration: none;
+}
+
+.navbar-brand{
+    float: left; 
+    height: 70px; 
+    width: 220px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+/*Navigation Bar*/
+
 /*CCC-Hero-Image*/
 #hero-image-ccc{
     background: url('../img/header-call-center.jpg') no-repeat center center fixed;    
@@ -23,6 +54,13 @@
     text-shadow: 0px 0px 4px #000;
 }
 
+h2{
+    margin: 10px;
+    text-align: center;
+    font-family: Poppins, Arial, Helvetica;
+    letter-spacing: .2em;
+}
+
 .landing-text-ccc h3{
     font-size: 24px;
     text-shadow: 0px 0px 3px #000;
@@ -30,6 +68,10 @@
 
 .hero-image-slogan-ccc{
     text-align: left;
+}
+
+.ccc-description{
+    font-size: 14pt;
 }
 /*CCC-Hero-Image*/
 
@@ -41,26 +83,16 @@
 
 
 /*CCC-BulletPoints*/
-.ccc-container{
-    width: 1000px;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 5em;
-}
-
 .ccc-container .card{
     position: relative;
     border: none;
+    margin-bottom: 5em;
 }
 
 .ccc-container .card .face{
-    width: 300px;
-    height: 300px;
+    width: 275px;
+    height: 280px;
     transition: 0.5s;
-    
-    margin-right: 5em;
-    margin-left: 5em;
     
 }
 
@@ -71,7 +103,7 @@
     justify-content: center;
     align-items: center;
     z-index: 1;
-    transform: translateY(300px);
+    transform: translateY(280px);
 }
 .ccc-container .card:hover .face.face-one{
     background: #ff0057;
@@ -105,7 +137,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 2px;
     box-sizing: border-box;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
 }
@@ -115,4 +147,13 @@
     padding: 0;
 }
 /*CCC-BulletPoints*/
+
+/*Footer*/
+footer{
+    background-color: #787878;
+    color: #fff;
+    padding: 0px;
+    margin: 0px;
+}
+/*Footer*/
 /*Customer Contact Center Website*/
