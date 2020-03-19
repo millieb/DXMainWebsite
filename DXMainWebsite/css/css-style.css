@@ -95,6 +95,7 @@ h2{
     width: 275px;
     height: 280px;
     transition: 0.5s;
+    margin-left: 1em;
     
 }
 
@@ -126,6 +127,7 @@ h2{
 }
 .ccc-container .card .face.face-one .content h3{
     margin: 10px 0 0;
+    margin-bottom: 1em;
     padding: 0;
     color: #fff;
     text-align: center;
