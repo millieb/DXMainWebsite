@@ -10,6 +10,7 @@
     --blue: #357FB0;
     --white: #fff;
     --black: #;
+    --bg: #f0f2f4;
 }
 
 h1{
@@ -75,9 +76,6 @@ body{
 }
 /*Hero-Image*/
 
-
-
-
 /*Navigation Bar*/
 navbar-nav {
     display: inline-block;
@@ -96,27 +94,12 @@ navbar-nav {
 
 .navbar-brand{
     float: left; 
-    height: 70px; 
+    height: 50px; 
     width: 220px;
     margin-right: 10px;
     margin-left: 10px;
 }
 /*Navigation Bar*/
-
-/*DataXport Logo*/
-.dxlogo-area .dxlogo-img {
-    padding-top: .5em;
-    padding-bottom: 1.5em;
-}
-/*DataXport Logo*/
-
-/*Home Images*/
-.img-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-/*Home Images*/
 
 .cards-section{
     background-color: #f0f2f4;
@@ -126,6 +109,10 @@ navbar-nav {
 h2{
     text-align: center;
     padding: 40px 0px 20px 0px;
+    margin: 0px;
+}
+
+#Services{
 }
 /*Cards*/
 .card-container .card .card-header{
