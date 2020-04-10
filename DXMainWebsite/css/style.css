@@ -11,6 +11,7 @@
     --white: #fff;
     --black: #;
     --bg: #f0f2f4;
+    --bg2: #A8C6D7;
 }
 
 h1{
@@ -112,8 +113,7 @@ h2{
     margin: 0px;
 }
 
-#Services{
-}
+
 /*Cards*/
 .card-container .card .card-header{
     font-weight: bold;
